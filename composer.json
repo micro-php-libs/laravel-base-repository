@@ -1,5 +1,5 @@
 {
-    "name": "okipa/laravel-base-repository",
+    "name": "custom-okipa/laravel-base-repository",
     "description": "An abstract base repository with predefined common features.",
     "keywords": [
         "okipa",
@@ -20,8 +20,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/support": "~5.0"
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.6",
@@ -45,5 +45,5 @@
             "phpunit"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
